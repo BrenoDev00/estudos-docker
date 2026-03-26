@@ -14,9 +14,15 @@
 - conflitos de versão;
 - problemas de deploy.
 
-
 # Detalhes
 - diferentemente de vm´s, o Docker é mais rápido e mais leve porque compartilha o kernel da máquina, e não o SO completo.
+
+# Imagem de container
+- é um arquivo estático, que funciona como um modelo ou receita contendo todas as instruções e configurações necessárias para
+executar uma aplicação.
+
+# Container docker
+- é a instância em execução de uma imagem docker, representando o software funcionando em um ambiente isolado.
 
 # Docker Hub
 - é um repositório de imagens Docker;
