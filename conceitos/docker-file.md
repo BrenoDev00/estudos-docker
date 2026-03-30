@@ -10,3 +10,5 @@ CMD node app.js (comando que roda quando o container inicia)
 
 - depois de definido o Dockerfile, pode-se executar o comando: docker build -t meu-app,
 serve para fazer o build da imagem docker. 
+
+- depois, para rodar o container: docker run nome-da-imagem
