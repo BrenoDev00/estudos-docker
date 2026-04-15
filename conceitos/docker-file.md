@@ -1,4 +1,5 @@
 # Dockerfile
+
 - é um arquivo de texto que contém instruções passo a passo para montar a imagem da aplicação.
 - ele fica na raiz de um projeto.
 - exemplo de Dockerfile:
@@ -20,6 +21,8 @@ EXPOSE 3000 (expor a porta que a aplicação usará)
 ENV API_URL=http://example (definir variáveis de ambiente)
 
 - depois de definido o Dockerfile, pode-se executar o comando: docker build -t meu-app,
-serve para fazer o build da imagem docker. 
+  serve para fazer o build da imagem docker.
 
 - depois, para rodar o container: docker run nome-da-imagem
+
+- outro comando para rodar container: docker run -dp (-d roda em background e p mapeia a porta usada) 3000:3000 nome_container
