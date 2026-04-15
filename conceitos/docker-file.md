@@ -13,6 +13,8 @@ CMD node app.js (comando que roda quando o container inicia)
 
 RUN yarn install --production (comando que roda configurações do projeto por exemplo, no momento de criação da imagem)
 
+USER (qual usuário o Docker irá usar na aplicação. É recomendado ao invés de usar o usuário root)
+
 EXPOSE 3000 (expor a porta que a aplicação usará)
 
 ENV API_URL=http://example (definir variáveis de ambiente)
