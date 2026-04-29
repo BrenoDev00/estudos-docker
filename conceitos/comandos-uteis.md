@@ -7,3 +7,5 @@
 - docker ps: lista containers ativos;
 
 - docker ps -a: lista todos os containers;
+
+- renomear container em execução: docker run --name meu-container nome-imagem
