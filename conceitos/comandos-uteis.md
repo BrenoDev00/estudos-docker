@@ -8,6 +8,12 @@
 
 - docker ps -a: lista todos os containers;
 
-- renomear container em execução: docker run --name meu-container nome-imagem
+- renomear container em execução: docker run --name meu-container nome-imagem;
 
-- listar logs de um container: docker logs -f id-container
+- listar logs de um container: docker logs -f id-container;
+
+- docker start nome-container: roda um container existente;
+
+- docker stop nome-container ou id: encerra a execução de um container;
+
+- docker volume ls: lista volumes existentes;

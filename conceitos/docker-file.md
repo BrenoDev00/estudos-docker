@@ -25,4 +25,4 @@ ENV API_URL=http://example (definir variáveis de ambiente)
 
 - depois, para rodar o container: docker run nome-da-imagem
 
-- outro comando para rodar container: docker run -dp (-d roda em background e p mapeia a porta usada) 3000:3000 nome_container
+- outro comando para rodar container: docker run -dp (-d roda em background e p mapeia a porta usada) 3000:3000 -v (nome do volume) nome_container
