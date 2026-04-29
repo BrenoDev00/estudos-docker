@@ -9,3 +9,5 @@
 - docker ps -a: lista todos os containers;
 
 - renomear container em execução: docker run --name meu-container nome-imagem
+
+- listar logs de um container: docker logs -f id-container
